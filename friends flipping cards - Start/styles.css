@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Style the header */
+.header {
+  display: flex;
+  background-color: #8a8989;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.left,
+.right,
+.middle {
+  float: left;
+}
+
+/* Style the footer */
+.footer {
+  clear: left;
+  grid-area: footer;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(147, 184, 190);
+  color: white;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
